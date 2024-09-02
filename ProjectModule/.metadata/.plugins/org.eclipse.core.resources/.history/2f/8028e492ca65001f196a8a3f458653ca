@@ -1,0 +1,7 @@
+package com.rays.dao;
+
+public interface PrescriptionDAOInt extends BaseDAOInt<PrescriptionDTO> {
+
+	
+	
+}
