@@ -1,8 +1,0 @@
-package com.rays.service;
-
-import com.rays.common.BaseDAOInt;
-import com.rays.common.BaseServiceInt;
-
-public interface PrescriptionServiceInt extends BaseServiceInt<PrescriptionDTO> {
-
-}
