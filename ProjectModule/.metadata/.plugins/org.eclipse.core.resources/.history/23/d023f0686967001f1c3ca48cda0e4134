@@ -1,0 +1,22 @@
+package com.rays.dto;
+
+import java.util.Date;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "ST_CONTACT")
+public class ContactDTO {
+
+	@Column(name = "NAME", length = 50)
+	public String name;
+	@Column(name = "COURSE_ID", length = 50)
+	public String city;
+	@Column(name = "DOB")
+	public Date dob;
+	@Column(name = "MOBILE")
+	public long mobile;
+
+}

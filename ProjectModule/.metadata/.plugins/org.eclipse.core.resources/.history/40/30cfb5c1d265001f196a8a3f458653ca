@@ -1,0 +1,55 @@
+package com.rays.form;
+
+import javax.validation.constraints.NotEmpty;
+import javax.validation.constraints.NotNull;
+
+import com.rays.common.BaseForm;
+
+public class PrescriptionForm extends BaseForm{
+
+	
+	
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getDecease() {
+		return decease;
+	}
+
+	public void setDecease(String decease) {
+		this.decease = decease;
+	}
+
+	public int getDate() {
+		return date;
+	}
+
+	public void setDate(int date) {
+		this.date = date;
+	}
+
+	public int getCapacity() {
+		return capacity;
+	}
+
+	public void setCapacity(int capacity) {
+		this.capacity = capacity;
+	}
+
+	@NotEmpty(message="enter name")
+	private String name;
+	
+	@NotEmpty(message="enter decease")
+	private String decease;
+	
+	@NotNull(message="enter date")
+	private int date;
+	
+	@NotNull(message="enter capacity")
+	private int capacity;
+}

@@ -1,0 +1,10 @@
+package com.rays.service;
+
+import com.rays.common.BaseDAOInt;
+import com.rays.common.BaseServiceImpl;
+import com.rays.dao.PrescriptionDAOInt;
+import com.rays.dto.PrescriptionDTO;
+
+public class PrescriptionServiceImpl extends BaseServiceImpl<PrescriptionDTO, PrescriptionDAOInt> {
+
+}
